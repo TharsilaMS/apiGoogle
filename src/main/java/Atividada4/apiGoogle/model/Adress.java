@@ -4,14 +4,10 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 public class Adress {
-    private String address;
+        private Long id;
+        private String address;
+        private Double latitude;
+        private Double longitude;
 
-    public String getAddress() {
-        return address;
     }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-}
 
