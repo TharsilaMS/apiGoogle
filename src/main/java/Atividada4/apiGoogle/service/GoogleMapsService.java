@@ -1,10 +1,8 @@
-package Atividade4.apiGoogle.service;
-
-import Atividada4.apiGoogle.Config.GoogleMapsConfig;
+package Atividada4.apiGoogle.service;
+import Atividada4.apiGoogle.config.GoogleMapsConfig;
 import Atividada4.apiGoogle.model.Coordinates;
 import Atividada4.apiGoogle.response.Geometry;
 import Atividada4.apiGoogle.response.GoogleMapsResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

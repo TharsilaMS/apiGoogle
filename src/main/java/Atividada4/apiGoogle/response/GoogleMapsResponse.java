@@ -1,6 +1,11 @@
 package Atividada4.apiGoogle.response;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
+@Getter
+@Setter
 public class GoogleMapsResponse {
         private List<GoogleMapsResult> results;
         private String status;
