@@ -1,11 +1,13 @@
 package Atividada4.apiGoogle.response;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.beans.factory.parsing.Location;
+
 @Getter
 @Setter
 public class Geometry {
+    @JsonProperty("location")
     private Location location;
 
     public Location getLocation() {
@@ -19,7 +21,10 @@ public class Geometry {
     @Getter
     @Setter
     public class Location {
+        @JsonProperty("lat")
         private double lat;
+
+        @JsonProperty("lng")
         private double lng;
 
         public Location() {
@@ -31,5 +36,3 @@ public class Geometry {
         }
     }
 }
-
-
