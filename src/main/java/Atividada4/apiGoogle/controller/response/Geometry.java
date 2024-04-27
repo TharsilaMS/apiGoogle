@@ -1,4 +1,4 @@
-package Atividada4.apiGoogle.response;
+package Atividada4.apiGoogle.controller.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

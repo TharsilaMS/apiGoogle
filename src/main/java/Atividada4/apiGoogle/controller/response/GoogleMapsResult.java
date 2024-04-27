@@ -1,6 +1,4 @@
-package Atividada4.apiGoogle.response;
-
-import Atividada4.apiGoogle.response.Geometry;
+package Atividada4.apiGoogle.controller.response;
 
 public class GoogleMapsResult {
 

@@ -1,4 +1,4 @@
-package Atividada4.apiGoogle.response;
+package Atividada4.apiGoogle.controller.response;
 
 import lombok.Getter;
 import lombok.Setter;
